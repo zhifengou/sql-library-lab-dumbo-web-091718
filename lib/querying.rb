@@ -17,7 +17,11 @@ def select_name_and_series_subgenres_of_authors
 end
 
 def select_series_title_with_most_human_characters
+<<<<<<< HEAD
   "SELECT series.title FROM series JOIN characters ON characters.series_id=series.id GROUP BY series.title ORDER BY series.title limit 1;"
+=======
+  "SELECT se"
+>>>>>>> 0fbfda81dbb8a7a36857bb382240e01a341cf61e
 end
 
 def select_character_names_and_number_of_books_they_are_in
